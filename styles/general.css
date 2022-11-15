@@ -1,0 +1,121 @@
+:root {
+  --main-selected-color: #244d4d;
+  --main-text-color: #161616;
+  --secondary-text-color: #383738;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+section:not(:first-of-type),
+footer {
+  margin-top: 140px;
+}
+
+.logo {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.section__back {
+  position: relative;
+}
+
+.section__back::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.flex-evenly {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+}
+
+.section__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 20px;
+  color: #242424;
+}
+
+.section__title_center {
+  text-align: center;
+}
+
+.section__subtitle {
+  margin-bottom: 40px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #444444;
+}
+
+.green-button {
+  font-size: 12px;
+  line-height: 21px;
+  color: #ffffff;
+  padding: 5px 15px;
+  background-color: #244d4d;
+  border: 1px solid transparent;
+  transition: border-radius 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55), 0.5s;
+}
+
+.green-button:hover {
+  color: #244d4d;
+  background-color: #fff;
+  border-color: #244d4d;
+  border-radius: 10px;
+}
+
+.input-reset {
+  background-color: #fff;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #bababa;
+  border: none;
+  outline: none;
+  width: 100%;
+}

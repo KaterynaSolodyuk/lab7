@@ -1,0 +1,137 @@
+/* hero section start */
+
+.main__img {
+  height: 60vw;
+}
+
+/* hero section end */
+/* companies section start */
+.companies__list {
+  flex-direction: column;
+  align-items: center;
+}
+.companies__list > img {
+  margin: 20px 0;
+}
+/* companies section end */
+
+/* about section start */
+.about__image > img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.about__image {
+  width: 70%;
+}
+.about-benefits__item {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.about-benefits__item > div {
+  width: 100%;
+}
+.about-benefits__item > img {
+  margin-right: 0;
+  margin-bottom: 5px;
+}
+/* about section end */
+
+.popular-furniture__item {
+  width: 90%;
+}
+.popular-furniture__item > img {
+  width: 100%;
+  height: auto;
+}
+/* all furniture section start */
+
+.all-furniture__image {
+  width: 70%;
+}
+.all-furniture__image > img {
+  width: 100%;
+  height: auto;
+}
+.all-furniture-options {
+  flex-direction: column;
+  align-items: center;
+}
+.all-furniture-options__item {
+  margin: 20px 0;
+}
+
+.all-furniture__content {
+  columns: 1;
+  column-gap: 0;
+}
+
+.all-furniture__content-item:nth-child(4n) {
+  margin-top: 33px;
+}
+/* all furniture section end */
+
+/* customers section start */
+
+.customers__image {
+  width: 70%;
+}
+.customers__image > img {
+  width: 100%;
+  height: auto;
+}
+
+.customers__content {
+  width: 100%;
+}
+
+.customer-wrapper {
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.customer-wrapper > img {
+  margin-right: 10px;
+}
+
+/* customers section end */
+
+/* contact section start */
+
+.contact {
+  padding-bottom: 150px;
+}
+
+.contact__input {
+  width: 85%;
+}
+.contact__submit {
+  width: 70%;
+  top: 160%;
+  right: 0;
+  transform: translateX(-50%);
+  left: 50%;
+}
+/* contact section end */
+
+/* footer section start */
+.footer__top > .flex-between {
+  flex-direction: column;
+}
+
+.footer__top > .container > div h4 {
+  margin-top: 20px;
+}
+.footer__input {
+  width: 50%;
+}
+
+.input__wrapper > a {
+  right: 50%;
+}
+.footer__top > .container > div:first-child,
+.footer__top > .container > div:last-child {
+  width: 100%;
+}
+/* footer section end */
